@@ -189,7 +189,10 @@ body._touch .menu__arrow {
 
 .main__page {
    position: relative;
-   z-index: 2;
+   z-index: 4;
+}
+
+.main__page {   
    background: url('../img/Black.png') 0 0/cover no-repeat;
 }
 
@@ -347,7 +350,7 @@ body._touch .menu__arrow {
 @media (max-width: 767px) {
    .header__logo {
       position: relative;
-      z-index: 5;
+      z-index: 6;
    }
 
    .menu__icon {
@@ -405,6 +408,7 @@ body._touch .menu__arrow {
 
    .menu__body {
       position: fixed;
+      z-index: 5;
       top: 0;
       left: -100%;
       width: 100%;
