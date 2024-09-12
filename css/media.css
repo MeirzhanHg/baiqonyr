@@ -186,12 +186,6 @@
       padding: 15px 35px;
    }
 
-   .main__icons {
-      position: absolute;
-      right: 25px;
-      bottom: 15px;
-   }
-
    .advantages__column {
       flex: 0 1 50%;
    }
@@ -359,7 +353,6 @@
    }
 
    .main__icons {
-      position: absolute;
       right: 10px;
       bottom: 10px;
    }
